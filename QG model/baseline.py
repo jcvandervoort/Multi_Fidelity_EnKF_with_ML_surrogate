@@ -1,5 +1,3 @@
-### Hybrid Covariance Super-Resolution EnKF
-
 import torch
 import torch.nn.functional as F
 
