@@ -6,8 +6,6 @@ from sklearn.metrics import mean_squared_error
 
 from QG import step_RK4, compute_q_over_f0_from_p, compute_psi_from_p, compute_p_from_psi, M_low
 
-#from EnKF import reshape_psi_to_X,reshape_X_to_psi
-
 from QG_surrogate import M_surr
 
 import matplotlib.pyplot as plt
