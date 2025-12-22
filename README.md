@@ -7,13 +7,14 @@ This repository consists of 2 folders: Lorenz-2005 and QG model, which contain t
 **Lorenz-2005 folder**
 
 Contents:
-- **MF_EnKF_Lorenz2005.ipynb**     Main file, from here you can run the MF-EnKF experiments calling on the other files in the folder
-- **Lorenz2005_surrogate.py**      Python file containing the ML surrogate for the Lorenz-2005 model
-- **MF_EnKF.py**                  Python file containing the Multi-Fidelity EnKF (MF-EnKF) code
-- **MF_EnKF_baseline.py**         Python file containing baseline method used as comparison in the paper
-- **generate_obs_and_truth.py**   Python file to generate the truth trajectory and observations
-- **localization.py**             Python file containing the localization functions
-- **lorenz05_weights_CNN**        Weights of the Lorenz-2005 ML surrogate model, obtained after training
+- **MF_EnKF_Lorenz2005.ipynb**.     Main file, from here you can run the MF-EnKF experiments calling on the other files in the folder
+- **Lorenz2005.py**.                Python file containing the numerical solver for the Lorenz-2005 model, based on https://github.com/nansencenter/DAPPER/tree/master/dapper/mods/Lorenz05
+- **Lorenz2005_surrogate.py**.      Python file containing the ML surrogate for the Lorenz-2005 model
+- **MF_EnKF.py**.                  Python file containing the Multi-Fidelity EnKF (MF-EnKF) code
+- **MF_EnKF_baseline.py**.         Python file containing baseline method used as comparison in the paper
+- **generate_obs_and_truth.py**.   Python file to generate the truth trajectory and observations
+- **localization.py**.            Python file containing the localization functions
+- **lorenz05_weights_CNN**.        Weights of the Lorenz-2005 ML surrogate model, obtained after training
 
 **QG model folder**
 
@@ -21,7 +22,7 @@ Contents:
 - **MF_EnKF_QGmodel.ipynb**.     Main file, from here you can run the MF-EnKF experiments calling on the other files in the folder
 - **EnKF.py**.                    Python file containing the Ensemble Kalman Filter (EnKF) code.
 - **MF_EnKF.py**.                   Python file containing the Multi-Fidelity EnKF (MF-EnKF) code.
-- **QG.py**.                        Python file containing the numerical solver for the Quasi-Geostrophic model equations.
+- **QG.py**.                        Python file containing the numerical solver for the Quasi-Geostrophic model equations, based on https://github.com/louity/qgm_pytorch
 - **QG_surrogate.py**.              Python file containing the ML surrogate model for the QG model.
 - **QGmodel_weights_Unet**.         Weights of the QG ML surrogate model, obtained after training
 - **baseline.py**.                  Python file containing baseline method used as comparison in the paper
