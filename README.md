@@ -7,7 +7,13 @@ This repository consists of 2 folders: Lorenz-2005 and QG model, which contain t
 **Lorenz-2005 folder**
 
 Contents:
-- MF_EnKF_Lorenz2005.ipynb     this file 
+- **MF_EnKF_Lorenz2005.ipynb**     Main file, from here you can run the MF-EnKF experiments calling on the other files in the folder
+- **Lorenz2005_surrogate.py**      Python file containing the ML surrogate for the Lorenz-2005 model
+- **MF_EnKF.py**                  Python file containing the Multi-Fidelity EnKF (MF-EnKF) code
+- **MF_EnKF_baseline.py**         Python file containing baseline method used as comparison in the paper
+- **generate_obs_and_truth.py**   Python file to generate the truth trajectory and observations
+- **localization.py**             Python file containing the localization functions
+- **lorenz05_weights_CNN**        Weights of the Lorenz-2005 ML surrogate model, obtained after training
 
 **QG model folder**
 
