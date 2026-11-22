@@ -1,6 +1,6 @@
 Python code for reproducing the results from the paper "*Balancing Accuracy and Speed: A Multi-Fidelity
 Ensemble Kalman Filter with a Machine Learning
-Surrogate Model*" by Jeffrey van der Voort, Martin Verlaan and Hanne Kekkonen. Available on Arxiv: https://arxiv.org/abs/2512.12276. Please cite the paper when using the code.
+Surrogate Model*" by Jeffrey van der Voort, Martin Verlaan and Hanne Kekkonen (2026), Quarterly Journal of the Royal Meteorological Society. DOI: https://doi.org/10.1002/qj.70339. Please cite the paper when using the code.
 
 This repository consists of 2 folders: Lorenz-2005 and QG model, which contain the files to reproduce the experiments for each test model.
 
